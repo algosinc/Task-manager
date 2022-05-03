@@ -13,4 +13,4 @@ The easiest way to run this App is to use an official **Docker image**. You onl
 ```bash
 docker run -d --env DJANGO_SECRET_KEY=<YOUR_KEY> -p 8000:8000 algosinc/task-manager 
 ```
-Task manager will be available in a browser at ```bash http://0.0.0.0:8000/``` You may encounter some problems with Safari, so use another browser or open ```bash http://localhost:8000```.
+Task manager will be available in a browser at ```http://0.0.0.0:8000/``` You may encounter some problems with Safari, so use another browser or open ```http://localhost:8000```.
